@@ -1,0 +1,26 @@
+{
+  "name": "ucipass-init",
+  "version": "1.0.0",
+  "description": "Library to help script initialization",
+  "main": "init.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucipass/ucipass-init.git"
+  },
+  "author": "ucipass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ucipass/ucipass-init/issues"
+  },
+  "homepage": "https://github.com/ucipass/ucipass-init#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "readline-sync": "^1.4.9",
+    "request": "^2.85.0",
+    "winston": "^2.4.1"
+  }
+}
